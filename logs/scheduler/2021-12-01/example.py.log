@@ -1,0 +1,8 @@
+[2021-12-01 19:26:34,091] {processor.py:163} INFO - Started process (PID=3311) to work on /opt/airflow/dags/example.py
+[2021-12-01 19:26:34,112] {processor.py:625} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-12-01 19:26:34,115] {logging_mixin.py:109} INFO - [2021-12-01 19:26:34,114] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-12-01 19:26:40,750] {processor.py:637} INFO - DAG(s) dict_keys(['Example']) retrieved from /opt/airflow/dags/example.py
+[2021-12-01 19:26:40,918] {processor.py:591} INFO - Executed failure callback for <TaskInstance: Example.read_csv scheduled__2021-11-27T02:10:27.714661+00:00 [failed]> in state failed
+[2021-12-01 19:26:40,994] {logging_mixin.py:109} INFO - [2021-12-01 19:26:40,992] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-12-01 19:26:41,165] {logging_mixin.py:109} INFO - [2021-12-01 19:26:41,164] {dag.py:2928} INFO - Setting next_dagrun for Example to 2021-12-01T19:26:33.458079+00:00
+[2021-12-01 19:26:41,240] {processor.py:171} INFO - Processing /opt/airflow/dags/example.py took 7.183 seconds

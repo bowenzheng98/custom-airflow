@@ -1,0 +1,19 @@
+[2021-11-26 02:00:35,343] {processor.py:163} INFO - Started process (PID=215) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-26 02:00:35,345] {processor.py:625} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-11-26 02:00:35,347] {logging_mixin.py:109} INFO - [2021-11-26 02:00:35,347] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-26 02:00:35,397] {processor.py:637} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-26 02:00:37,194] {logging_mixin.py:109} INFO - [2021-11-26 02:00:37,194] {providers_manager.py:156} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2021-11-26 02:00:37,904] {logging_mixin.py:109} INFO - [2021-11-26 02:00:37,904] {providers_manager.py:156} WARNING - Exception when importing 'airflow.providers.google.leveldb.hooks.leveldb.LevelDBHook' from 'apache-airflow-providers-google' package: No module named 'plyvel'
+[2021-11-26 02:00:37,936] {logging_mixin.py:109} INFO - [2021-11-26 02:00:37,936] {manager.py:496} INFO - Created Permission View: can read on DAG:latest_only
+[2021-11-26 02:00:37,956] {logging_mixin.py:109} INFO - [2021-11-26 02:00:37,956] {manager.py:496} INFO - Created Permission View: can edit on DAG:latest_only
+[2021-11-26 02:00:37,958] {logging_mixin.py:109} INFO - [2021-11-26 02:00:37,957] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-26 02:00:37,970] {logging_mixin.py:109} INFO - [2021-11-26 02:00:37,970] {dag.py:2415} INFO - Creating ORM DAG for latest_only
+[2021-11-26 02:00:37,985] {logging_mixin.py:109} INFO - [2021-11-26 02:00:37,985] {dag.py:2928} INFO - Setting next_dagrun for latest_only to 2021-11-25T22:00:37.984813+00:00
+[2021-11-26 02:00:38,008] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 2.670 seconds
+[2021-11-26 02:01:08,172] {processor.py:163} INFO - Started process (PID=283) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-26 02:01:08,175] {processor.py:625} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2021-11-26 02:01:08,177] {logging_mixin.py:109} INFO - [2021-11-26 02:01:08,176] {dagbag.py:500} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-26 02:01:08,219] {processor.py:637} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py
+[2021-11-26 02:01:08,244] {logging_mixin.py:109} INFO - [2021-11-26 02:01:08,244] {dag.py:2396} INFO - Sync 1 DAGs
+[2021-11-26 02:01:08,277] {logging_mixin.py:109} INFO - [2021-11-26 02:01:08,277] {dag.py:2928} INFO - Setting next_dagrun for latest_only to 2021-11-25T22:01:08.277337+00:00
+[2021-11-26 02:01:08,296] {processor.py:171} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_latest_only.py took 0.131 seconds

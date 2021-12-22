@@ -1,0 +1,4 @@
+[2021-11-27 03:15:20,750] {processor.py:163} INFO - Started process (PID=3257) to work on /opt/airflow/dags/example.py
+[2021-11-27 03:15:20,888] {processor.py:625} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2021-11-27 03:15:20,958] {logging_mixin.py:109} INFO - [2021-11-27 03:15:20,940] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2021-11-28 02:15:06,719] {logging_mixin.py:109} INFO - [2021-11-28 02:15:06,221] {timeout.py:36} ERROR - Process timed out, PID: 3257
